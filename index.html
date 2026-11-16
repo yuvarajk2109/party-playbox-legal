@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Party Playbox</title>
+<style>
+@font-face { font-family: Fredoka; font-weight: 400; src: url(fonts/fredoka_regular.ttf); }
+@font-face { font-family: Fredoka; font-weight: 600; src: url(fonts/fredoka_semibold.ttf); }
+:root { --page: #FFF6E5; --ink: #0F2A2E; --muted: #4F6466; --accent: #0F2A2E; }
+@media (prefers-color-scheme: dark) {
+  :root { --page: #111214; --ink: #FFF6E5; --muted: #A3A6AE; --accent: #C8F04A; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--page); color: var(--muted); font: 17px/1.45 system-ui, -apple-system, Roboto, sans-serif; }
+main { max-width: 680px; margin: 0 auto; padding: 48px 20px 64px; }
+h1, h2 { font-family: Fredoka, system-ui, sans-serif; font-weight: 600; color: var(--ink); }
+h1 { text-align: center; font-size: 34px; margin: 0 0 36px; }
+h2 { font-size: 23px; margin: 30px 0 6px; }
+p, li { text-align: justify; hyphens: auto; -webkit-hyphens: auto; overflow-wrap: anywhere; margin: 0; }
+p + p, p + ul, ul + p { margin-top: 1.45em; }
+ul { margin: 0; padding-left: 32px; }
+li + li { margin-top: 8px; }
+.updated { margin-top: 28px; font-size: 14px; }
+a { color: var(--accent); }
+nav ul { list-style: none; padding: 0; text-align: center; }
+nav li { text-align: center; font-family: Fredoka, system-ui, sans-serif; font-size: 22px; }
+</style>
+</head>
+<body>
+<main>
+<h1>Party Playbox</h1>
+<nav><ul><li><a href="privacy.html">Privacy Policy</a></li><li><a href="terms.html">Terms and Conditions</a></li></ul></nav>
+</main>
+</body>
+</html>
